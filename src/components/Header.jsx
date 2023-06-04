@@ -24,16 +24,16 @@ const  menu = [
     url : '/about',
   },
   {
-    name : 'Menu1',
+    name : 'psum dolor sit',
     url : '/',
   },
   {
-    name : 'Menu2',
+    name : 'Lorsum dolor',
     url : '/',
   },
   {
-    name : 'Contact Us',
-    url : '/contact-us',
+    name : 'dolor sit',
+    url : '/',
   },
 ];
 
@@ -107,7 +107,7 @@ function Header() {
               href={data.url}
               className={` ${active === index && '!text-primary'} ${isValidPath
                   && reachedTop ? 'md:text-white text-black' : 'text-black'
-                } hover:!text-primary text-lg px-4 py-2 bg-transparent rounded-md relative z-10`}
+                } capitalize hover:!text-primary text-lg px-4 py-2 bg-transparent rounded-md relative z-10`}
               onClick={ () => (setActive(index) & setShowToggledNav(false)) }
             >
               {data.name}
