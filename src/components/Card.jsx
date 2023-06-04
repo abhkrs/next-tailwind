@@ -24,7 +24,7 @@ export default function Card({ img, date, name, desc }) {
         fill
       />
       <P
-        className={`absolute top-4 left-4 bg-primary text-white rounded px-2`}
+        className={`absolute top-6 left-6 bg-primary text-white rounded px-2`}
       >
         {date}
       </P>

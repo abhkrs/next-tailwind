@@ -23,7 +23,7 @@ export default function HomeBanner() {
           <div className="text-white text-center absolute z-[5] bottom-20  left-1/2 -translate-x-1/2 w-4/5">
               <H2 className="tsad font-bold">Lorem ipsum dolor sit amet.</H2>
               <H2 className="tshad">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, ipsa.</H2>
-              <div className="py-6 flex w-full relative z-50 lg:w-4/5 mx-auto">
+              <div className="pt-6 pb-20 flex w-full relative z-50 lg:w-4/5 mx-auto">
                   <input type="text" name="Search" id="search" className='rounded-l h-8 md:h-12 border-2 border-gray-200 shadow w-full min-w-[200px]'/>
                   <button className='bg-primary px-6 py-1 md:py-3 rounded-r'>Search</button>
               </div>
