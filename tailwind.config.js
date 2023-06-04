@@ -7,12 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        'white': '#ffffff', // Set white as a custom color
+        'primary': '#ff6029', // Set primary color as #ff6029
+      },
+      backgroundColor: {
+        'body': 'var(--color-white)', // Set the body background color to white
       },
     },
   },
   plugins: [],
-}
+};
