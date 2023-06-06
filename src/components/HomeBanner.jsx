@@ -7,7 +7,7 @@ import H1 from './typography/H1'
 export default function HomeBanner() {
   return (
     <section>
-        <div className='h-96 overflow-hidden'>
+        <div className='h-96 overflow-hidden mb-16'>
           <Image
           fill
           src = '/images/sliderImage.png'
@@ -15,7 +15,7 @@ export default function HomeBanner() {
           />
           <div className="absolute bg-[#00000080] z-[2] top-0 bottom-0 left-0 right-0"/>
           <div className="h-6 absolute bottom-0 left-0 right-0 bg-primary z-20">
-              <div className="h-4 relative top-0 left-0 right-0 bg-gradient-to-t from-primary to-white z-20" /> 
+              <div className="h-4 relative top-2 left-0 right-0 bg-gradient-to-b from-primary to-white z-20" /> 
           </div>
           <div className="text-white text-center absolute z-[5] bottom-12  left-1/2 -translate-x-1/2 w-4/5">
               <H2 className="tsad font-bold">Lorem ipsum dolor sit amet.</H2>
