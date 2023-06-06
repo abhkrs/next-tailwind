@@ -30,7 +30,7 @@ export default function HomeBanner() {
             </div>
           </div>
       </section>
-      <div className="h-20" />
+      <div className="h-20 mb-20" />
     </>
   )
 }
