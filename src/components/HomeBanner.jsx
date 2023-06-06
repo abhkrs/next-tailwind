@@ -8,7 +8,7 @@ export default function HomeBanner() {
   return (
     <>
       <section>
-          <div className='h-screen overflow-hidden mb-16'>
+          <div className='h-screen overflow-hidden'>
             <Image
             fill
             src = '/images/sliderImage.png'
@@ -21,7 +21,7 @@ export default function HomeBanner() {
                 <div className="h-4 bg-gradient-to-b from-primary to-white" /> 
             </div>
             <div className="text-white text-center absolute z-[5] bottom-20  left-1/2 -translate-x-1/2 w-4/5">
-                <H2 className="tsad font-bold">Lorem ipsum dolor sit amet.</H2>
+                <H2 className="tshad font-bold">Lorem ipsum dolor sit amet.</H2>
                 <H2 className="tshad">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, ipsa.</H2>
                 <div className="pt-6 pb-20 flex w-full relative z-50 lg:w-4/5 mx-auto">
                     <input type="text" name="Search" id="search" className='rounded-l h-8 md:h-12 border-2 border-gray-200 shadow w-full min-w-[170px]'/>
